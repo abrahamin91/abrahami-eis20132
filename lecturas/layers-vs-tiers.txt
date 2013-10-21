@@ -1,0 +1,3 @@
+¿Diferencia entre los patrones Layers y Tiers?
+
+Los patrones Tiers se refiere a la distribución física de las capas, es decir donde corre el código y los procesos, por ejemplo Máquinas: Servidor web, servidor de aplicaciones, servidor de base de datos. Los patrones Layers se refiere a la distribución lógica de las capas, es decir, como esta estructurado el código. Los patrones Layers definen simplemente como se organiza el código. Normalmente incluye una capa de presentación, una capa de negocios, una capa de acceso a datos, una capa de entidades de negocio y una capa de datos – repositorio de datos. Los “Layers” se despliegan sobre los “Tiers”.

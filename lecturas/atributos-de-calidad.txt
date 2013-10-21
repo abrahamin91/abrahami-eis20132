@@ -1,0 +1,11 @@
+Robustez:
+
+Un programa es robusto si se comporta en forma razonable aún en circunstancias que no fueron anticipadas en la especificación de requerimientos; por ejemplo cuando encuentra datos de entrada incorrectos o algún malfuncionamiento del hardware como rotura de disco. Un programa que genere un error no recuperable en tiempo de ejecución tan pronto como el usuario ingrese inadvertidamente un comando incorrecto no será robusto, aunque podría ser correcto si en la especificación de requerimientos no se establece la acción a tomar si se ingresa un comando incorrecto.
+
+La robustez es una cualidad difícil de definir, ya que si se pudiera establecer en forma precisa lo que se debiera hacer para obtener una aplicación robusta, se podría especificar completamente el comportamiento “razonable”, con lo cual sería equivalente a la correctitud, o a la confiabilidad en el caso ideal mencionado en la definición anterior.
+
+Se puede observar que la robustez y la correctitud están fuertemente relacionadas: si se incluye un requerimiento en la especificación será un tema de correctitud, si no se incluye podría ser un tema de robustez. La línea divisoria entre ambos es la especificación del sistema. La relación con la confiabilidad surge del hecho de que no todos los comportamientos incorrectos significan problemas igualmente serios, algunos comportamientos incorrectos pueden ser tolerados.
+
+Observación:
+
+La correctitud, confiabilidad y robustez también se aplican al proceso de producción del software, por ejemplo un proceso es robusto si puede adaptarse a cambios no previstos en el entorno como ser una nueva liberación del sistema operativo o una transferencia repentina de la mitad de los empleados a otra sección, un proceso es confiable si lleva consistentemente a la producción de productos de alta calidad.
